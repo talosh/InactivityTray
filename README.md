@@ -2,7 +2,7 @@
 
 A minimalist macOS tray application that starts a bundled `xmrig` binary after 10 seconds of user inactivity and stops it when activity resumes. A tray icon visually reflects the state: paused or active (running).
 
-## 🔧 Features
+## Features
 
 - Detects keyboard and mouse inactivity using macOS APIs.
 - Starts/stops a local `xmrig` binary accordingly.
@@ -12,7 +12,7 @@ A minimalist macOS tray application that starts a bundled `xmrig` binary after 1
 
 ---
 
-## 🧱 Prerequisites
+## Prerequisites
 
 - macOS (Apple Silicon supported)
 - [Python 3 (via Homebrew)](https://brew.sh/)
@@ -21,7 +21,7 @@ A minimalist macOS tray application that starts a bundled `xmrig` binary after 1
 
 ---
 
-## 📦 Setup
+## Setup
 
 ### 1. Clone or Download
 
@@ -45,7 +45,7 @@ pip install pyobjc
 
 ---
 
-## 🚀 Run Without Packaging
+## Run Without Packaging
 
 While developing:
 
@@ -56,7 +56,7 @@ python tray_inactivity_monitor.py
 
 ---
 
-## 🛠 Create `.app` with Platypus
+## Create `.app` with Platypus
 
 1. Open Platypus or install it via:
 
@@ -80,7 +80,7 @@ brew install --cask platypus
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 InactivityTray/
@@ -96,13 +96,13 @@ InactivityTray/
 
 ---
 
-## ✅ Tips
+## Tips
 
 - To auto-launch on login, add the `.app` to System Preferences → Users & Groups → Login Items.
 - You can create a `@2x` version of icons for Retina displays if needed.
 
 ---
 
-## 🧼 License
+## License
 
-MIT License (or adapt if needed)
+MIT License
